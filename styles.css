@@ -47,7 +47,7 @@ button {
 }
 
 .about__section1 {
-    padding: 7rem 0;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -56,10 +56,12 @@ button {
 
 .about__section1__span{
     color: var(--text-color-secundaria);
+    font-weight: bold;
 }
 
 .about__section1__h1 {
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .about__section1__p {
@@ -70,18 +72,19 @@ button {
 }
 
 .metricas {
-    padding: 0 5rem;
+    padding: 0 5rem 4rem;
     display: flex;
-    align-items: baseline;
+    justify-content: center;
     gap: 2rem;
 }
 
 .metricas div {
-    min-width: 300px;
+    width: 300px;
 }
 
 .metricas span{
     color: var(--text-color-secundaria);
+    font-weight: bold;
     font-size: 60px;
     line-height: 1.5;
 }
@@ -96,3 +99,104 @@ button {
     font-size: 16px;
 }
 
+.procurandoTalentos {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 1rem;
+}
+.procurandoTalentos span {
+    padding:  4px 12px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    font-size: 14px;
+    color: var(--text-color-secundaria);
+    font-weight: 500;
+}
+
+.procurandoTalentos h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.procurandoTalentos p {
+    color: var(--text-color-primaria);
+    font-size: 16px;
+}
+
+.procurandoTalentos__imagem {
+    padding: 2rem 0rem;
+    max-width: 100%;
+}
+
+.vagas {
+    padding: 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1,5rem;
+    margin: 0 20%; 
+}
+
+.vagas__titulo h3{
+    font-size: 1.25rem;
+    padding: 0px 0px 32px 0px;
+    align-self: flex-start;
+}
+
+.vagas__titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 1.1rem;
+    line-height: 28px;
+    padding: 24px 24px 28px;
+    margin: 24px 0px 24px;
+    border: 1px solid;
+    border-radius: 16px;
+    border-color: #EAECF0;
+    width: 724px;
+}
+
+.vagas__informacoes {
+    font-size: 1rem;
+    color: var(--text-color-primaria);
+    line-height: 24px;
+}
+
+.colaboradores {
+    background-color: rgba(195, 25, 25, 0.03);
+    padding:  4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.colaboradores span {
+    font-size: 14px;
+    color: var(--text-color-secundaria);
+    font-weight: bold;
+}
+
+.colaboradores h4 {
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
+}
+
+.colaboradores p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#colaboradores___img {
+    margin: 16px 0px 0px;
+}
+
+#colaboradores__p {
+    color: var(--text-color-primaria);
+    font-size: 14px;
+    font-weight: normal;
+}
